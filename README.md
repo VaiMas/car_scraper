@@ -11,8 +11,12 @@ VIN and license plate number and saving in to csv file.
 
     git clone https://github.com/VaiMas/car_scraper.git
 
-    2. Run project:
+    2. Open file directory:
 
-    $ python ./car_pp.py scrapy runspider car_pp.py
+    car_scraper\car_scraper\spiders
+
+    3. Run project:
+
+    scrapy runspider car_pp.py
 
     Enjoy.

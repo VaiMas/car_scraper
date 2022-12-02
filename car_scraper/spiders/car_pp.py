@@ -26,7 +26,7 @@ class CarPpSpider(scrapy.Spider):
         now it is 50 urls with 20 entries each with 2s delay.
         """
         webs = []
-        for page in range(3):
+        for page in range(50):
             page += 1
             webs.append(
                 f'https://apipub.pp.lv/lv/api_user/v1/categories/2/lots?fV%5B22%5D%5Btype%5D=2363&orderColumn=publishDate&orderDirection=DESC&currentPage={page}&itemsPerPage=20')
